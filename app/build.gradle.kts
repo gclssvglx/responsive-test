@@ -59,8 +59,8 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
-//    Add constrain layout
-    implementation(libs.androidx.constraintlayout.compose)
+
+    implementation(libs.androidx.adaptive.android)
 
     testImplementation(libs.junit)
 
